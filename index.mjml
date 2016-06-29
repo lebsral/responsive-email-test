@@ -12,6 +12,8 @@
     <mj-class name="SeaGreen" color="#22c1b9"/>
     <mj-class name="PinkAction" color="#fc306b"/>
     <mj-class name="center" align="center"/>
+    <mj-class name="nopadding" padding="0 0 0 0"/>
+
 
 
   </mj-attributes>
@@ -44,19 +46,44 @@
   </mj-section>
 
      <!-- Model image -->
-  <mj-section padding-top="0">
-    <mj-image padding-top="0" width="300" src="http://lorempixel.com/600/300/people" />
+  <mj-section>
+    <mj-image padding="0 0 0 0" width="300" src="http://lorempixel.com/600/300/people" />
   </mj-section>
 
      <!-- missing -->
   <mj-section>
-    <mj-text mj-class="xlarge center">
+    <mj-text mj-class="xlarge center" font-style="italic">
       WE MISS YOU!
     </mj-text>
   </mj-section>
 
-     <!-- Icons -->
-<mj-section background-color="#fbfbfb"></mj-section>
+     <!-- codes and shipping -->
+  <mj-section background-color="#fbfbfb">
+  <mj-text mj-class="medium center">
+  Here's
+  <span font-color="#22c1b9">
+    $10 + Free Shipping
+  </span>
+    on your next order of $50 or more.
+  </mj-text>
+
+  <mj-text mj-class="medium center">
+    Use code LXWB10 at checkout.
+  </mj-text>
+
+  <mj-text mj-class="medium center">
+    Come see what's new at Loxa Beauty.
+  </mj-text>
+
+  </mj-section>
+
+
+  <mj-section background-color="#ebfbfb">
+  <!-- hair -->
+  <!-- mens -->
+  <!-- tools -->
+
+  </mj-section>
 
      <!-- Social icons -->
 <mj-section background-color="#f0f0f0"></mj-section>
