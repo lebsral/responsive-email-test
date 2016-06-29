@@ -1,18 +1,41 @@
 <mjml>
+
+ <mj-head>
+     <mj-attributes>
+       <mj-text padding="0" />
+       <mj-class name="blue" color="blue" />
+       <mj-class name="xsmall" font-size="8px" />
+       <mj-class name="small" font-size="10px" />
+       <mj-class name="medium" font-size="14px" />
+       <mj-class name="large" font-size="16px" />
+       <mj-class name="xlarge" font-size="22px" />
+       <mj-class name="SeaGreen" color="#22c1b9"/>
+     </mj-attributes>
+   </mj-head>
+
   <mj-body>
+
     <mj-container>
 
-      <!-- Company Header -->
-      <mj-section background-color="#white" size="30">
-        <mj-text  font-style="normal"
-              font-size="20"
-              color="#black">
+
+      <mj-section background-color="white">
+
+        <mj-text mj-class="large" align="center"  font-style="normal">
       LOXA -logo- BEAUTY
         </mj-text>
       </mj-section>
 
-      <!-- Image Header -->
-      <mj-section background-color="#f0f0f0"></mj-section>
+
+      <mj-section background-color="black"  align="center">
+        <mj-text mj-class="SeaGreen" font-style="bold" font-size="12" font-family="Helvetica Neue">
+             FREE SHIPPING.
+          </mj-text>
+            <mj-text font-style="bold" font-size="12" font-family="Helvetica Neue" color="#22c1b9">
+             FREE SHIPPING.
+          </mj-text>
+      </mj-section>
+      FREE RETURNS.
+            ON ALL ORDERS OVER $50.
 
       <!-- Introduction Text -->
       <mj-section background-color="#fafafa"></mj-section>
