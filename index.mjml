@@ -1,73 +1,66 @@
 <mjml>
 
- <mj-head>
-     <mj-attributes>
-       <mj-text padding="0" />
-       <mj-class name="blue" color="blue" />
-       <mj-class name="xsmall" font-size="8px" />
-       <mj-class name="small" font-size="10px" />
-       <mj-class name="medium" font-size="14px" />
-       <mj-class name="large" font-size="16px" />
-       <mj-class name="xlarge" font-size="22px" />
-       <mj-class name="SeaGreen" color="#22c1b9"/>
-       <mj-class name="PinkAction" color="#fc306b"/>
-       <mj-class name="center" align="center"/>
+<mj-head>
+  <mj-attributes>
+    <mj-text padding="0" />
+    <mj-class name="blue" color="blue" />
+    <mj-class name="xsmall" font-size="8px" />
+    <mj-class name="small" font-size="10px" />
+    <mj-class name="medium" font-size="14px" />
+    <mj-class name="large" font-size="16px" />
+    <mj-class name="xlarge" font-size="22px" />
+    <mj-class name="SeaGreen" color="#22c1b9"/>
+    <mj-class name="PinkAction" color="#fc306b"/>
+    <mj-class name="center" align="center"/>
 
 
-     </mj-attributes>
-   </mj-head>
+  </mj-attributes>
+</mj-head>
 
-  <mj-body>
+<mj-body>
+<mj-container>
+  <mj-section background-color="white">
+    <mj-text mj-class="large center" font-style="normal">
+     LOXA -logo- BEAUTY
+    </mj-text>
+  </mj-section>
 
-    <mj-container>
+  <mj-section background-color="black"  mj-class="center">
+    <mj-column>
+      <mj-text mj-class="SeaGreen medium" font-style="bold" font-family="Helvetica Neue">
+        FREE SHIPPING.
+      </mj-text>
+    </mj-column>
+    <mj-column>
+      <mj-text mj-class="SeaGreen medium" font-style="bold" font-family="Helvetica Neue">
+        FREE RETURNS.
+      </mj-text>
+    </mj-column>
+    <mj-column>
+      <mj-text mj-class="medium" color="#FFFFFF" font-style="bold" font-family="Helvetica Neue">
+        ON ALL ORDERS OVER $50.
+      </mj-text>
+    </mj-column>
+  </mj-section>
 
+     <!-- Model image -->
+  <mj-section padding-top="0">
+    <mj-image padding-top="0" width="300" src="http://lorempixel.com/600/300/people" />
+  </mj-section>
 
-      <mj-section background-color="white">
-
-        <mj-text mj-class="large center" font-style="normal">
-      LOXA -logo- BEAUTY
-        </mj-text>
-      </mj-section>
-
-
-      <mj-section background-color="black"  mj-class="center">
-      <mj-column>
-        <mj-text mj-class="SeaGreen medium" font-style="bold" font-family="Helvetica Neue">
-             FREE SHIPPING.
-          </mj-text>
-          </mj-column>
-          <mj-column>
-            <mj-text mj-class="SeaGreen medium" font-style="bold" font-family="Helvetica Neue">
-             FREE RETURNS.
-          </mj-text>
-          </mj-column>
-          <mj-column>
-            <mj-text mj-class="medium" color="#FFFFFF" font-style="bold" font-family="Helvetica Neue">
-              ON ALL ORDERS OVER $50.
-            </mj-text>
-          </mj-column>
-      </mj-section>
-
-
-
-      <!-- Model image -->
-      <mj-section padding-top="0">
-        <mj-image padding-top="0" width="300" src="http://lorempixel.com/600/300/people" />
-      </mj-section>
-
-      <!-- missing -->
-      <mj-section>
-        <mj-text mj-class="xlarge center">
+     <!-- missing -->
+  <mj-section>
+    <mj-text mj-class="xlarge center">
       WE MISS YOU!
-        </mj-text>
-      </mj-section>
+    </mj-text>
+  </mj-section>
 
-      <!-- Icons -->
-      <mj-section background-color="#fbfbfb"></mj-section>
+     <!-- Icons -->
+<mj-section background-color="#fbfbfb"></mj-section>
 
-      <!-- Social icons -->
-      <mj-section background-color="#f0f0f0"></mj-section>
+     <!-- Social icons -->
+<mj-section background-color="#f0f0f0"></mj-section>
 
-    </mj-container>
-  </mj-body>
+</mj-container>
+</mj-body>
 </mjml>
