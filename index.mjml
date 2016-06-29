@@ -3,7 +3,13 @@
     <mj-container>
 
       <!-- Company Header -->
-      <mj-section background-color="#f0f0f0"></mj-section>
+      <mj-section background-color="#white" size="30">
+        <mj-text  font-style="normal"
+              font-size="20"
+              color="#black">
+      LOXA -logo- BEAUTY
+        </mj-text>
+      </mj-section>
 
       <!-- Image Header -->
       <mj-section background-color="#f0f0f0"></mj-section>
