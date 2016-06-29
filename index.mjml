@@ -80,8 +80,28 @@
 
   <mj-section background-color="#ebfbfb">
   <!-- hair -->
+  <mj-column>
+    <mj-text>
+    HAIR
+    </mj-text>
+
+    <mj-button class="PinkAction>
+    SHOP LUXA
+    </mj-button>
+
+  </mj-column>
   <!-- mens -->
+  <mj-column>
+    <mj-text class="SeaGreen">
+    MEN'S
+    </mj-text>
+  </mj-column>
   <!-- tools -->
+  <mj-column>
+  <mj-text>
+    TOOLS
+    </mj-text>
+  </mj-column>
 
   </mj-section>
 
