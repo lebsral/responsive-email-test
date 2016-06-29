@@ -40,7 +40,7 @@
     </mj-column>
     <mj-column>
       <mj-text mj-class="medium" color="#FFFFFF" font-style="bold" font-family="Helvetica Neue">
-        ON ALL ORDERS OVER $50.
+        ON ALL ORDERS OVER &#36;50.
       </mj-text>
     </mj-column>
   </mj-section>
@@ -60,11 +60,11 @@
      <!-- codes and shipping -->
   <mj-section background-color="#fbfbfb">
   <mj-text mj-class="medium center">
-  Here's
+  Here&#39;s
   <span font-color="#22c1b9">
-    $10 + Free Shipping
+    &#36;10 + Free Shipping
   </span>
-    on your next order of $50 or more.
+    on your next order of &#36;50 or more.
   </mj-text>
 
   <mj-text mj-class="medium center">
@@ -72,7 +72,7 @@
   </mj-text>
 
   <mj-text mj-class="medium center">
-    Come see what's new at Loxa Beauty.
+    Come see what&#39;s new at Loxa Beauty.
   </mj-text>
 
   </mj-section>
@@ -93,7 +93,7 @@
   <!-- mens -->
   <mj-column>
     <mj-text class="SeaGreen">
-    MEN'S
+    MEN&#39;S
     </mj-text>
   </mj-column>
   <!-- tools -->
@@ -127,10 +127,8 @@
      <!-- Social icons -->
   <mj-section background-color="#f0f0f0">
     <mj-text>
-    Have Questions?
-
-We%27d love to help! Contact us at info@loxabeauty.com or call our customer service team at 1-855-299-3531.
-Our customer service team is available Monday-Friday 9:00AM - 5:00PM CST.
+    Have Questions? We&#39;d love to help! Contact us at info&#64;loxabeauty.com or call our customer service team at 1-855-299-3531.
+Our customer service team is available Monday-Friday 9&#58;00AM - 5&#58;00PM CST.
     </mj-text>
 
   </mj-section>
