@@ -10,7 +10,7 @@
     <mj-class name="large" font-size="16px" />
     <mj-class name="xlarge" font-size="22px" />
     <mj-class name="SeaGreen" color="#22c1b9"/>
-    <mj-class name="PinkAction" color="#fc306b"/>
+    <mj-class name="PinkAction" background-color	="#fc306b"/>
     <mj-class name="center" align="center"/>
     <mj-class name="nopadding" padding="0 0 0 0"/>
 
@@ -84,8 +84,8 @@
     <mj-text>
     HAIR
     </mj-text>
-
     <mj-button class="PinkAction>
+
     SHOP LUXA
     </mj-button>
 
@@ -98,9 +98,28 @@
   </mj-column>
   <!-- tools -->
   <mj-column>
-  <mj-text>
-    TOOLS
-    </mj-text>
+    <mj-hero
+        mode="fixed-height"
+        height="200px"
+        background-width="600px"
+        background-height="269px"
+        background-url="https://cloud.githubusercontent.com/assets/1830348/15354890/1442159a-1cf0-11e6-92b1-b861dadf1750.jpg"
+        background-color="#2a3448"
+        padding="0px 0px">
+        <!-- To add content like mj-image, mj-text, mj-button ... use the mj-hero-content component -->
+        <mj-hero-content width="100%">
+          <mj-text mj-class="SeaGreen medium"
+            padding="20px"
+            font-family="Helvetica"
+            font-size="45"
+            line-height="45"
+            font-weight="900">
+            TOOLS
+          </mj-text>
+          <mj-button class="PinkAction" padding-bottom="2px" href="https://mjml.io/" align="center">
+            SHOP LUXA
+          </mj-button>
+        </mj-hero-content>
   </mj-column>
 
   </mj-section>
