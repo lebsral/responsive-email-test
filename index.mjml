@@ -10,6 +10,7 @@
        <mj-class name="large" font-size="16px" />
        <mj-class name="xlarge" font-size="22px" />
        <mj-class name="SeaGreen" color="#22c1b9"/>
+       <mj-class name="PinkAction" color="#fc306b"/>
      </mj-attributes>
    </mj-head>
 
@@ -27,7 +28,7 @@
 
 
       <mj-section background-color="black"  align="center">
-        <mj-text mj-class="SeaGreen" font-style="bold" font-size="12" font-family="Helvetica Neue">
+        <mj-text mj-class="SeaGreen medium" font-style="bold" font-family="Helvetica Neue">
              FREE SHIPPING.
           </mj-text>
             <mj-text font-style="bold" font-size="12" font-family="Helvetica Neue" color="#22c1b9">
