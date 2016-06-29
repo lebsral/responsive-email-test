@@ -28,15 +28,24 @@
 
 
       <mj-section background-color="black"  align="center">
+      <mj-column>
         <mj-text mj-class="SeaGreen medium" font-style="bold" font-family="Helvetica Neue">
              FREE SHIPPING.
           </mj-text>
-            <mj-text font-style="bold" font-size="12" font-family="Helvetica Neue" color="#22c1b9">
-             FREE SHIPPING.
+          </mj-column>
+          <mj-column>
+            <mj-text mj-class="SeaGreen medium" font-style="bold" font-family="Helvetica Neue">
+             FREE RETURNS.
           </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-text mj-class="medium" color="#FFFFFF"  color="#22c1b9"font-style="bold" font-family="Helvetica Neue">
+              ON ALL ORDERS OVER $50.
+            </mj-text>
+          </mj-column>
       </mj-section>
-      FREE RETURNS.
-            ON ALL ORDERS OVER $50.
+
+
 
       <!-- Introduction Text -->
       <mj-section background-color="#fafafa"></mj-section>
