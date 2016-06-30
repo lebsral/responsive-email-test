@@ -8,12 +8,13 @@
     <mj-class name="small" font-size="10px" />
     <mj-class name="medium" font-size="14px" />
     <mj-class name="large" font-size="16px" />
-    <mj-class name="xlarge" font-size="22px" />
+    <mj-class name="xlarge" font-size="2.7rem" />
     <mj-class name="SeaGreen" color="#22c1b9"/>
     <mj-class name="PinkAction" background-color	="#fc306b"/>
     <mj-class name="center" align="center"/>
     <mj-class name="nopadding" padding="0 0 0 0"/>
     <mj-class name="noborder" padding="0 0 0 0"/>
+    <mj-class name="arial" font="arial">
 
 
 
@@ -22,15 +23,15 @@
 
 <mj-body>
 <mj-container>
-  <mj-section mj-class="nopadding noborder" background-color="white">
-    <mj-text mj-class="large center" font-style="normal">
+  <mj-section background-color="white">
+    <mj-text mj-class="xlarge center" font-style="normal" padding-bottom="10">
      LOXA -logo- BEAUTY
     </mj-text>
   </mj-section>
 
-  <mj-section mj-class="nopadding noborder center" background-color="black">
+  <mj-section mj-class="noborder" background-color="black" padding="5 0 5 0">
     <mj-column>
-      <mj-text mj-class="SeaGreen medium nopadding noborder center" font-style="bold" font-family="Helvetica Neue">
+      <mj-text mj-class="SeaGreen medium center" font-style="bold" padding-right="0" font-family="Helvetica Neue">
         FREE SHIPPING.
       </mj-text>
     </mj-column>
@@ -48,12 +49,12 @@
 
      <!-- Model image -->
   <mj-section>
-    <mj-image padding="0 0 0 0" width="300" src="http://lorempixel.com/600/300/people" />
+    <mj-image width="600" src="http://lorempixel.com/600/300/people" />
   </mj-section>
 
      <!-- missing -->
-  <mj-section mj-class="nopadding noborder">
-    <mj-text mj-class="xlarge center" font-style="italic">
+  <mj-section mj-class="nopadding" padding-top="40">
+    <mj-text mj-class="xlarge center" font-family="sarif" font-style="italic">
       WE MISS YOU!
     </mj-text>
   </mj-section>
@@ -79,7 +80,7 @@
   </mj-section>
 
 
-  <mj-section background-color="#ebfbfb">
+  <mj-section mj-class="nopadding">
   <!-- hair -->
   <mj-column>
     <mj-text>
@@ -107,17 +108,14 @@
         background-url="https://cloud.githubusercontent.com/assets/1830348/15354890/1442159a-1cf0-11e6-92b1-b861dadf1750.jpg"
         background-color="#2a3448"
         padding="0px 0px">
-        <!-- To add content like mj-image, mj-text, mj-button ... use the mj-hero-content component -->
+
         <mj-hero-content width="100%">
-          <mj-text mj-class="SeaGreen medium"
-            padding="20px"
-            font-family="Helvetica"
-            font-size="45"
-            line-height="45"
+          <mj-text mj-class="SeaGreen medium arial"
+            left-padding="100"
             font-weight="900">
             TOOLS
           </mj-text>
-          <mj-button mj-class="PinkAction" padding-bottom="2px" href="https://mjml.io/" align="center">
+          <mj-button mj-class="PinkAction" vertical-align="bottom" padding-bottom="2px" href="https://loxabeauty.com/">
             SHOP LUXA
           </mj-button>
         </mj-hero-content>
@@ -125,14 +123,17 @@
 
   </mj-section>
 
-  <mj-section mj-class="nopadding noborder" background-color="#f0f0f0">
-    <mj-divider mj-class="nopadding noborder" border-width="3px" border-style="solid" border-color="#000000" />
+  <mj-section mj-class="nopadding noborder">
+    <mj-divider border-width="3px" border-style="solid" width="100%" border-color="#000000" />
   </mj-section>
 
-     <!-- Social icons -->
+
   <mj-section background-color="#f0f0f0">
-    <mj-text>
-    Have Questions? We&#39;d love to help! Contact us at info&#64;loxabeauty.com or call our customer service team at 1-855-299-3531.
+    <mj-text class="medium bold" font-style="normal">
+    Have Questions?
+    </mj-text>
+    <mj-text class="small" border="0px 10px">
+    We&#39;d love to help! Contact us at info&#64;loxabeauty.com or call our customer service team at 1-855-299-3531.
 Our customer service team is available Monday-Friday 9&#58;00AM - 5&#58;00PM CST.
     </mj-text>
 
