@@ -21,3 +21,5 @@ Note: Merge tags might need to be inside of an <mj-raw></mj-raw> and then merged
 2. Add Youtube to social icons
 3. Add inline styles
 4. Add logo to top
+5. Remove space bewtwee top picture and black bar at top
+

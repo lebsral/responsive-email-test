@@ -80,22 +80,50 @@
 
   <mj-section mj-class="nopadding">
   <!-- hair -->
-  <mj-column>
-    <mj-text>
-    HAIR
-    </mj-text>
-    <mj-button mj-class="PinkAction>
+    <mj-column>
+    <mj-hero
+        mode="fixed-height"
+        height="200px"
+        background-width="600px"
+        background-height="269px"
+        background-url="http://lorempixel.com/200/200/"
+        background-color="#2a3448"
+        padding="0px 0px">
 
-    SHOP LUXA
-    </mj-button>
-
+        <mj-hero-content width="100%">
+          <mj-text mj-class="SeaGreen medium arial"
+            left-padding="100"
+            font-weight="900">
+            HAIR
+          </mj-text>
+          <mj-button mj-class="PinkAction" vertical-align="bottom" padding-bottom="2px" href="https://loxabeauty.com/">
+            SHOP LUXA
+          </mj-button>
+        </mj-hero-content>
   </mj-column>
   <!-- mens -->
   <mj-column>
-    <mj-text mj-class="SeaGreen">
-    MEN&#39;S
-    </mj-text>
+    <mj-hero
+        mode="fixed-height"
+        height="200px"
+        background-width="600px"
+        background-height="269px"
+        background-url="http://lorempixel.com/200/200/"
+        background-color="#2a3448"
+        padding="0px 0px">
+
+        <mj-hero-content width="100%">
+          <mj-text mj-class="SeaGreen medium arial"
+            left-padding="100"
+            font-weight="900">
+            MEN&#39;S
+          </mj-text>
+          <mj-button mj-class="PinkAction" vertical-align="bottom" padding-bottom="2px" href="https://loxabeauty.com/">
+            SHOP LUXA
+          </mj-button>
+        </mj-hero-content>
   </mj-column>
+
   <!-- tools -->
   <mj-column>
     <mj-hero
