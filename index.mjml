@@ -85,7 +85,7 @@
         mode="fixed-height"
         height="200px"
         background-width="600px"
-        background-height="269px"
+        background-height="200px"
         background-url="http://lorempixel.com/200/200/"
         background-color="#2a3448"
         padding="0px 0px">
@@ -101,13 +101,14 @@
           </mj-button>
         </mj-hero-content>
   </mj-column>
+
   <!-- mens -->
   <mj-column>
     <mj-hero
         mode="fixed-height"
         height="200px"
         background-width="600px"
-        background-height="269px"
+        background-height="200px"
         background-url="http://lorempixel.com/200/200/"
         background-color="#2a3448"
         padding="0px 0px">
@@ -130,7 +131,7 @@
         mode="fixed-height"
         height="200px"
         background-width="600px"
-        background-height="269px"
+        background-height="200px"
         background-url="http://lorempixel.com/200/200/"
         background-color="#2a3448"
         padding="0px 0px">
