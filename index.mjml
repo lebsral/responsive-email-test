@@ -2,20 +2,18 @@
 
 <mj-head>
   <mj-attributes>
-    <mj-text padding="0" />
-    <mj-class name="blue" color="blue" />
-    <mj-class name="xsmall" font-size="8px" />
-    <mj-class name="small" font-size="10px" />
-    <mj-class name="medium" font-size="14px" />
-    <mj-class name="large" font-size="16px" />
-    <mj-class name="xlarge" font-size="2.7rem" />
+    <mj-class name="xsmall" font-size="0.6154rem" />
+    <mj-class name="small" font-size="0.7692rem" />
+    <mj-class name="medium" font-size="1.077rem" />
+    <mj-class name="large" font-size="1.231rem" />
+    <mj-class name="xlarge" font-size="2rem" />
     <mj-class name="SeaGreen" color="#22c1b9"/>
     <mj-class name="PinkAction" background-color	="#fc306b"/>
     <mj-class name="center" align="center"/>
     <mj-class name="nopadding" padding="0 0 0 0"/>
     <mj-class name="noborder" padding="0 0 0 0"/>
     <mj-class name="arial" font="arial">
-
+    <mj-class name="bold" font-style="bold">
 
 
   </mj-attributes>
@@ -29,19 +27,19 @@
     </mj-text>
   </mj-section>
 
-  <mj-section mj-class="noborder" background-color="black" padding="5 0 5 0">
+  <mj-section mj-class="noborder" background-color="black" >
     <mj-column>
-      <mj-text mj-class="SeaGreen medium center" font-style="bold" padding-right="0" font-family="Helvetica Neue">
+      <mj-text mj-class="SeaGreen medium center arial bold">
         FREE SHIPPING.
       </mj-text>
     </mj-column>
     <mj-column>
-      <mj-text mj-class="SeaGreen medium center nopadding noborder" font-style="bold" font-family="Helvetica Neue">
+      <mj-text mj-class="SeaGreen medium arial bold" align="left">
         FREE RETURNS.
       </mj-text>
     </mj-column>
     <mj-column mj-class="nopadding noborder">
-      <mj-text mj-class="medium center" color="#FFFFFF" font-style="bold" font-family="Helvetica Neue">
+      <mj-text mj-class="medium center arial bold" color="#FFFFFF">
         ON ALL ORDERS OVER &#36;50.
       </mj-text>
     </mj-column>
@@ -105,7 +103,7 @@
         height="200px"
         background-width="600px"
         background-height="269px"
-        background-url="https://cloud.githubusercontent.com/assets/1830348/15354890/1442159a-1cf0-11e6-92b1-b861dadf1750.jpg"
+        background-url="http://lorempixel.com/200/200/"
         background-color="#2a3448"
         padding="0px 0px">
 
@@ -128,11 +126,11 @@
   </mj-section>
 
 
-  <mj-section background-color="#f0f0f0">
-    <mj-text class="medium bold" font-style="normal">
+  <mj-section>
+    <mj-text mj-class="medium bold center arial">
     Have Questions?
     </mj-text>
-    <mj-text class="small" border="0px 10px">
+    <mj-text class="small" padding="10px 10px">
     We&#39;d love to help! Contact us at info&#64;loxabeauty.com or call our customer service team at 1-855-299-3531.
 Our customer service team is available Monday-Friday 9&#58;00AM - 5&#58;00PM CST.
     </mj-text>
