@@ -13,6 +13,7 @@
     <mj-class name="PinkAction" background-color	="#fc306b"/>
     <mj-class name="center" align="center"/>
     <mj-class name="nopadding" padding="0 0 0 0"/>
+    <mj-class name="noborder" padding="0 0 0 0"/>
 
 
 
@@ -21,25 +22,25 @@
 
 <mj-body>
 <mj-container>
-  <mj-section background-color="white">
+  <mj-section mj-class="nopadding noborder" background-color="white">
     <mj-text mj-class="large center" font-style="normal">
      LOXA -logo- BEAUTY
     </mj-text>
   </mj-section>
 
-  <mj-section background-color="black"  mj-class="center">
+  <mj-section mj-class="nopadding noborder center" background-color="black">
     <mj-column>
-      <mj-text mj-class="SeaGreen medium" font-style="bold" font-family="Helvetica Neue">
+      <mj-text mj-class="SeaGreen medium nopadding noborder center" font-style="bold" font-family="Helvetica Neue">
         FREE SHIPPING.
       </mj-text>
     </mj-column>
     <mj-column>
-      <mj-text mj-class="SeaGreen medium" font-style="bold" font-family="Helvetica Neue">
+      <mj-text mj-class="SeaGreen medium center nopadding noborder" font-style="bold" font-family="Helvetica Neue">
         FREE RETURNS.
       </mj-text>
     </mj-column>
-    <mj-column>
-      <mj-text mj-class="medium" color="#FFFFFF" font-style="bold" font-family="Helvetica Neue">
+    <mj-column mj-class="nopadding noborder">
+      <mj-text mj-class="medium center" color="#FFFFFF" font-style="bold" font-family="Helvetica Neue">
         ON ALL ORDERS OVER &#36;50.
       </mj-text>
     </mj-column>
@@ -51,7 +52,7 @@
   </mj-section>
 
      <!-- missing -->
-  <mj-section>
+  <mj-section mj-class="nopadding noborder">
     <mj-text mj-class="xlarge center" font-style="italic">
       WE MISS YOU!
     </mj-text>
@@ -84,7 +85,7 @@
     <mj-text>
     HAIR
     </mj-text>
-    <mj-button class="PinkAction>
+    <mj-button mj-class="PinkAction>
 
     SHOP LUXA
     </mj-button>
@@ -92,7 +93,7 @@
   </mj-column>
   <!-- mens -->
   <mj-column>
-    <mj-text class="SeaGreen">
+    <mj-text mj-class="SeaGreen">
     MEN&#39;S
     </mj-text>
   </mj-column>
@@ -116,12 +117,16 @@
             font-weight="900">
             TOOLS
           </mj-text>
-          <mj-button class="PinkAction" padding-bottom="2px" href="https://mjml.io/" align="center">
+          <mj-button mj-class="PinkAction" padding-bottom="2px" href="https://mjml.io/" align="center">
             SHOP LUXA
           </mj-button>
         </mj-hero-content>
   </mj-column>
 
+  </mj-section>
+
+  <mj-section mj-class="nopadding noborder" background-color="#f0f0f0">
+    <mj-divider mj-class="nopadding noborder" border-width="3px" border-style="solid" border-color="#000000" />
   </mj-section>
 
      <!-- Social icons -->
