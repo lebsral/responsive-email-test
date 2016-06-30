@@ -19,4 +19,5 @@ Note: Merge tags might need to be inside of an <mj-raw></mj-raw> and then merged
 ###ToDo
 1. Change social icons to Font Awesome
 2. Add Youtube to social icons
-3. add inline styles
+3. Add inline styles
+4. Add logo to top

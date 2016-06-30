@@ -27,27 +27,27 @@
     </mj-text>
   </mj-section>
 
-  <mj-section mj-class="noborder nopadding" background-color="black" >
+  <mj-section mj-class="noborder nopadding" padding-bottom="0" background-color="black" >
     <mj-column mj-class="noborder nopadding">
-      <mj-text mj-class="SeaGreen medium arial bold noborder nopadding">
+      <mj-text mj-class="center SeaGreen medium arial bold noborder nopadding">
         FREE SHIPPING.
       </mj-text>
     </mj-column>
     <mj-column mj-class="noborder nopadding">
-      <mj-text mj-class="SeaGreen medium arial bold noborder nopadding">
+      <mj-text mj-class="center SeaGreen medium arial bold noborder nopadding">
         FREE RETURNS.
       </mj-text>
     </mj-column>
     <mj-column mj-class="noborder nopadding">
-      <mj-text mj-class="medium arial bold noborder nopadding" color="#FFFFFF">
+      <mj-text mj-class="center medium arial bold noborder nopadding" color="#FFFFFF">
         ON ALL ORDERS OVER &#36;50.
       </mj-text>
     </mj-column>
   </mj-section>
 
      <!-- Model image -->
-  <mj-section>
-    <mj-image mj-class="nopadding' width="600" src="http://lorempixel.com/600/300/people" />
+  <mj-section padding-top="0">
+    <mj-image mj-class="noborder" padding-top="0" width="600" src="http://lorempixel.com/600/300/people" />
   </mj-section>
 
      <!-- missing -->
@@ -68,7 +68,7 @@
   </mj-text>
 
   <mj-text mj-class="medium center">
-    Use code <mj-raw><h1 style="color:blue;">LXWB10</h1></mj-raw> at checkout.
+    Use code <mj-raw>LXWB10</mj-raw> at checkout.
   </mj-text>
 
   <mj-text mj-class="medium center">
