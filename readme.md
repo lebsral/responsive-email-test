@@ -1,14 +1,15 @@
-
-
-to install:
+###To install:
+```
 $ npm install
+```
 
-to see changes:
+###To see changes:
+```
 $ mjml --watch index.mjml -o index.html
-
-make changes to index.mjml
-see the changes in index.html formatted for email
-
+```
+###To Use:
+Make changes to index.mjml
+See the changes in index.html formatted for email
 
 Note: Merge tags might need to be inside of an <mj-raw></mj-raw> and then merged.
 

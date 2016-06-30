@@ -27,19 +27,19 @@
     </mj-text>
   </mj-section>
 
-  <mj-section mj-class="noborder" background-color="black" >
-    <mj-column>
-      <mj-text mj-class="SeaGreen medium center arial bold">
+  <mj-section mj-class="noborder nopadding" background-color="black" >
+    <mj-column mj-class="noborder nopadding">
+      <mj-text mj-class="SeaGreen medium arial bold noborder nopadding">
         FREE SHIPPING.
       </mj-text>
     </mj-column>
-    <mj-column>
-      <mj-text mj-class="SeaGreen medium arial bold" align="left">
+    <mj-column mj-class="noborder nopadding">
+      <mj-text mj-class="SeaGreen medium arial bold noborder nopadding">
         FREE RETURNS.
       </mj-text>
     </mj-column>
-    <mj-column mj-class="nopadding noborder">
-      <mj-text mj-class="medium center arial bold" color="#FFFFFF">
+    <mj-column mj-class="noborder nopadding">
+      <mj-text mj-class="medium arial bold noborder nopadding" color="#FFFFFF">
         ON ALL ORDERS OVER &#36;50.
       </mj-text>
     </mj-column>
@@ -47,7 +47,7 @@
 
      <!-- Model image -->
   <mj-section>
-    <mj-image width="600" src="http://lorempixel.com/600/300/people" />
+    <mj-image mj-class="nopadding' width="600" src="http://lorempixel.com/600/300/people" />
   </mj-section>
 
      <!-- missing -->
@@ -68,7 +68,7 @@
   </mj-text>
 
   <mj-text mj-class="medium center">
-    Use code LXWB10 at checkout.
+    Use code <mj-raw><h1 style="color:blue;">LXWB10</h1></mj-raw> at checkout.
   </mj-text>
 
   <mj-text mj-class="medium center">
@@ -137,6 +137,26 @@ Our customer service team is available Monday-Friday 9&#58;00AM - 5&#58;00PM CST
 
   </mj-section>
 
+
+<mj-section>
+        <mj-column>
+          <mj-social
+            mode="horizontal"
+            display="facebook twitter google instagram pinterest"
+            facebook-content=""
+            twitter-content=""
+            google-content=""
+            instagram-content=""
+            pinterest-content=""
+            google-icon-color="#22c1b9"
+            facebook-icon-color="#22c1b9"
+            twitter-icon-color="#22c1b9"
+            instagram-icon-color="#22c1b9"
+            pinterest-icon-color="#22c1b9"
+            facebook-href="My facebook page"
+            google-href="My google+ page" />
+        </mj-column>
+      </mj-section>
 </mj-container>
 </mj-body>
 </mjml>
